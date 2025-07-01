@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bcfb0cbe-2056-461f-bef9-2fdcd3217040" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../envs/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../envs/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../envs/.idea/envs.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../envs/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../envs/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../envs/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../envs/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../envs/HAC-MAPPO.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../envs/New_characters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../envs/Nodes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../envs/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../envs/algorithms/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../envs/algorithms/algorithm/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../envs/algorithms/algorithm/rMAPPOPolicy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../envs/algorithms/algorithm/r_actor_critic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../envs/algorithms/algorithm/r_mappo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../envs/algorithms/algorithm/r_mappo_冲突文件_Tikii_20250603201909.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../envs/algorithms/utils/act.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../envs/algorithms/utils/cnn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../envs/algorithms/utils/distributions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../envs/algorithms/utils/mlp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../envs/algorithms/utils/popart.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../envs/algorithms/utils/rnn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../envs/algorithms/utils/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../envs/cal_oil.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../envs/calculate_cost.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../envs/check_condition.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../envs/choose_order.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../envs/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../envs/dispatch_vehicle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../envs/distance.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../envs/env1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../envs/get_path.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../envs/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../envs/model_checkpoint_160.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../envs/separated/base_runner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../envs/separated/env_runner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../envs/shared/base_runner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../envs/shared/env_runner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../envs/simulate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../envs/station_action.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../envs/update.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../envs/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../envs/utils/separated_buffer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../envs/utils/shared_buffer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../envs/utils/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../envs/utils/valuenorm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulate.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2zH62YlW6JXt0vfWZcjctgNBihT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-babbdf50b680-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.15989.155" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bcfb0cbe-2056-461f-bef9-2fdcd3217040" name="Changes" comment="" />
+      <created>1751375447026</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1751375447026</updated>
+    </task>
+    <servers />
+  </component>
+</project>
