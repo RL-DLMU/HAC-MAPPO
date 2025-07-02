@@ -30,7 +30,7 @@
 - **使用随机数据或已有数据进行训练**：
   直接运行`main.py`即可：
   ```bash
-  python HAC-MAPPO/HAC-MAPPO/envs/main.py
+  python HAC-MAPPO/envs/main.py
   ```
-  训练过程中会记录指标到"HAC-MAPPO\HAC-MAPPO\envs\HAC-MAPPO.json"中，训练完成后模型保存在`HAC-MAPPO\trained_models`目录中。
+  训练过程中会记录指标到"HAC-MAPPO\envs\HAC-MAPPO.json"中，训练完成后模型保存在`HAC-MAPPO\trained_models`目录中。
 
