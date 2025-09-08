@@ -18,15 +18,13 @@ def calculate_distance(route):
             distance = sum(alldistance[(depot,sub_route[0])]+alldistance[(sub_route[0],sub_route[1])]+alldistance[(sub_route[1],depot)] for _ in sub_route)
             # distance=distance+
             cost=double_cost*alldistance[(depot,sub_route[0])]+single_cost*alldistance[(sub_route[0],sub_route[1])]+empty_cost*alldistance[(sub_route[1],depot)]
-            distance += cost
-            total_distance += distance
+            
 
         elif len(sub_route)==1:
             distance = sum(alldistance[(depot, sub_route[0])] + alldistance[(sub_route[0], depot)] for _ in sub_route)
             cost=single_cost*alldistance[(depot,sub_route[0])]+empty_cost*alldistance[(sub_route[0],depot)]
-            distance+=cost
-            total_distance += distance
-    return total_distance
+            
+    return cost
 
 # 随机初始化：将订单随机分配到一个油库并生成路径
 def initial_solution(depot, orders):
