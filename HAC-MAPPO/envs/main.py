@@ -1,5 +1,5 @@
 import csv
-
+import numpy as np
 import env1
 import torch
 import sys
@@ -28,6 +28,10 @@ def main(args):
         print("choose to use cpu...")
         device = torch.device("cpu")
         torch.set_num_threads(all_args.n_training_threads)
+    # seed
+    torch.manual_seed(all_args.seed)
+    torch.cuda.manual_seed_all(all_args.seed)
+    np.random.seed(all_args.seed)
     env = env1.OilDeliveryEnv1()
     station_num = env.agent_num
     config = {
@@ -36,27 +40,12 @@ def main(args):
         "num_agents": station_num,
         "device": device,
     }
-    check_path = r'D:\BaiduSyncdisk\a最新大规模\LCMAPPO工作日2\envs\model_checkpoint_180.pth'    # check_path = 'D:\\BaiduSyncdisk\\对比算法\\mappo对比算法\\envs\\model_checkpoint_20000.pth'
-    #check_path = r'D:\BaiduSyncdisk\a最新大规模\LCMAPPO节假日3\envs\model_checkpoint_160.pth'    # check_path = 'D:\\BaiduSyncdisk\\对比算法\\mappo对比算法\\envs\\model_checkpoint_20000.pth'
+   
 
-    # check_path = 'D:\\BaiduSyncdisk\\验证实验\\LCPPO改油耗数据实验室 无disentropy\envs\\model_checkpoint_4000.pth'
-    # check_path = 'D:\\BaiduSyncdisk\\对比算法\\mappo对比算法\\envs\\model_checkpoint_20000.pth'
+  
     runner = Runner(config)
     runner.run()
-    #runner.eval_news(1,check_path)
-    #eval_avg_cost=runner.eval_1(1, check_path)
 
-    # 保存 eval_cost 到文件
-    # cost_file_path = 'LCMAPPO3-1.csv'
-    # with open(cost_file_path, mode='w', newline='') as file:
-    #     writer = csv.writer(file)
-    #     writer.writerow(['eval_cost'])  # 列名
-    #     for cost in eval_avg_cost:
-    #         writer.writerow([cost])
-    #
-    # print(f"数据已分别保存到  {cost_file_path}")
-    #
-    # post process
     env.close()
 
 if __name__ == '__main__':
