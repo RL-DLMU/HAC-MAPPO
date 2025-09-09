@@ -56,7 +56,7 @@ class RMAPPO():
         self.lagrangian_coef = args.lagrangian_coef_rate  # lagrangian_coef
         self.lamda_lagr = args.lamda_lagr
 
-        self.fair_threshold = 0.8
+        self.fair_threshold = 0.5
         assert (self._use_popart and self._use_valuenorm) == False, (
             "self._use_popart and self._use_valuenorm can not be set True simultaneously")
 
