@@ -6,9 +6,9 @@ import random
 random.seed(42)  # 固定随机数种子，确保每次运行生成相同的初始解和邻域解
 
 alldistance=distance.alldistance
-empty_cost = 10
-single_cost = 20
-double_cost = 40
+empty_cost = 1
+single_cost = 1.5
+double_cost = 2
 def calculate_distance(route):
     depot, routes = route
     total_distance = 0
