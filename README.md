@@ -37,3 +37,16 @@
 本仓库提供了代码及运行环境。
 对于真实场景中的数据配置，涉及实际加油站位置、库存及容量等保密数据以及版权问题，故不予公开。本仓库提供了合成数据的环境配置，其中油耗数据的生成方法已在论文实验部分的“油耗数据集描述”中进行了详细说明。
 
+本项目为论文 [Safe Refined Oil Dispatching via Constrained Multiagent Reinforcement Learning with Hierarchical Action Spaces]([https://ieeexplore.ieee.org/document/11216362]) 的官方开源实现，如有引用请使用以下 BibTeX：
+```bibtex
+@ARTICLE{11216362,
+  author={Tang, Kun and Zhang, Chengwei and Liu, Wanting and Li, Xue and Wang, Qi and An, Dou and Zhan, Furui},
+  journal={IEEE Transactions on Automation Science and Engineering}, 
+  title={Safe Refined Oil Dispatching via Constrained Multiagent Reinforcement Learning with Hierarchical Action Spaces}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Oils;Optimization;Routing;Fuels;Safety;Costs;Petroleum;Heuristic algorithms;Dispatching;Biological system modeling;Multiagent Reinforcement Learning;Refined Oil Dispatching;Order Generation;Constrained Partially Observable Markov Game},
+  doi={10.1109/TASE.2025.3625392}}
+
