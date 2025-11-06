@@ -42,11 +42,12 @@
 @ARTICLE{11216362,
   author={Tang, Kun and Zhang, Chengwei and Liu, Wanting and Li, Xue and Wang, Qi and An, Dou and Zhan, Furui},
   journal={IEEE Transactions on Automation Science and Engineering}, 
-  title={Safe Refined Oil Dispatching via Constrained Multiagent Reinforcement Learning with Hierarchical Action Spaces}, 
+  title={Safe Refined Oil Dispatching via Constrained Multiagent Reinforcement Learning With Hierarchical Action Spaces}, 
   year={2025},
-  volume={},
+  volume={22},
   number={},
-  pages={1-1},
-  keywords={Oils;Optimization;Routing;Fuels;Safety;Costs;Petroleum;Heuristic algorithms;Dispatching;Biological system modeling;Multiagent Reinforcement Learning;Refined Oil Dispatching;Order Generation;Constrained Partially Observable Markov Game},
+  pages={23164-23176},
+  keywords={Oils;Optimization;Routing;Fuels;Safety;Costs;Petroleum;Heuristic algorithms;Dispatching;Biological system modeling;Multiagent reinforcement learning;refined oil dispatching;order generation;constrained partially observable Markov game},
   doi={10.1109/TASE.2025.3625392}}
+
 
